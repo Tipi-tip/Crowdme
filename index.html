@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="header_logo">
+      <img src="img/logo.png" alt="logo">
+    </div>
+    <nav class="topnav" id="myTopnav">
+      <a href="#home">HOME</a>
+      <a href="#how_it_works">HOW IT WORKS</a>
+      <a href="#discover_at_project">DISCOVER AT PROJECT</a>
+      <a href="#blog">BLOG</a>
+      <a href="#find_out_more">FIND OUT MORE</a>
+      <a href="#" id="menu" class="icon">&#9776;</a>
+    </nav>
+  </header>
+
+    <div class="slider text-center" id="home">
+      <div class="slider_line slider_item">
+        <div class="slider_item italia">
+          <h1>Intellectual Property has the Shelf Life</h1>
+          <p>of a Banana. </p>
+          <button>Become a Member</button>
+        </div>
+        <div class="slider_item spain text-center">
+          <h1>Intellectual Property has the Shelf Life</h1>
+          <p>of a Banana. </p>
+          <button>Become a Member</button>
+        </div>
+        <div class="slider_item greece text-center">
+          <h1>Intellectual Property has the Shelf Life</h1>
+          <p>of a Banana. </p>
+          <button>Become a Member</button>
+        </div> 
+      </div>
+    </div>
+    <a class="slider_prev" onclick="plusSlides(-1)">&#10094</a>
+    <a class="slider_next" onclick="plusSlides(1)">&#10095</a>
+    
+    <section class="work text-center" id="how_it_works">
+      <div class="container">
+        <img class="icon_work" src="img/icon_work.png" alt="icon">
+        <h2 class="title_work">Our work is the presentation <br>  of our capabilities. </h2>
+        <p class="text_work">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+        <p class="text_work">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+      </div>
+    </section>
+
+    <section class="tabs">
+      <div class="tabs_nav">
+        <button class="tabs_btn active" type="button" data-tab="#tab_1"><span>1</span>Simple</button>
+        <button class="tabs_btn" type="button" data-tab="#tab_2"><span>2</span>Transparent</button>
+        <button class="tabs_btn" type="button" data-tab="#tab_3"><span>3</span>Collaborative</button>
+      </div>
+      <div class="tabs_content">
+        <div class="tabs_item active" id="tab_1">
+          <div class="tab_img">
+            <img src="img/glasses.png" alt="glasses">
+          </div>
+          <div class="tab_text">
+            <h3>Browse projects, like booking a hotel online !</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+        <div class="tabs_item" id="tab_2">
+          <div class="tab_img">
+            <img src="img/glasses.png" alt="glasses">
+          </div>
+          <div class="tab_text">
+            <h3>Browse projects, like booking a hotel online !</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+        <div class="tabs_item" id="tab_3">
+          <div class="tab_img">
+            <img src="img/glasses.png" alt="glasses">
+          </div>
+          <div class="tab_text">
+            <h3>Browse projects, like booking a hotel online !</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="search">
+      <div class="properties">
+        <div class="search_img">
+          <img src="img/couch.png" alt="">
+        </div>
+        <div class="search_text">
+          <h3>Find Properties</h3>
+          <p>Sign up to browse the portfolio. Your journey to becoming a real estate baron starts here.</p>   
+          <button class="properties_btn">Become A Member</button>
+        </div>
+      </div>
+      <div class="buyers">
+        <div class="search_img">
+          <img src="img/wallet.png" alt="">
+        </div>
+        <div class="search_text">
+          <h3>Find Buyers</h3>
+          <p>Sign up to browse the portfolio. Your journey to becoming a real estate baron starts here.</p> 
+          <button class="buyers_btn">Submit Your Project</button>
+        </div>
+      </div>
+    </section>
+    <section class="project" id="discover_at_project">
+      <h2>Featured Projects</h2>
+      <div class="project_info">
+          <p>Brief details of new and popular projects. To view full listings, you will be required to sign up and become a member.</p>
+          <button>Become a Member</button>  
+      </div>
+      <div class="project_town">
+          <div class="project_item">
+            <img src="img/town1.png" alt="town">
+            <div class="project_card">
+              <h3>Ontario Tower , LONDON</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <img src="img/percent.png" alt="result">
+              <div class="result">
+                <p>10% Funded</p>
+                <p>8 Days Left</p>
+              </div>
+              <div class="project_link">
+                <a href="#">See Project Details</a>
+                <img src="img/triangle.png" alt="triangle">
+              </div>
+            </div>
+          </div>
+          <div class="project_item">
+            <img src="img/town2.png" alt="town">
+            <div class="project_card">
+              <h3>Ontario Tower , LONDON</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <img src="img/percent2.png" alt="result">
+              <div class="result">
+                <p>60% Funded</p>
+                <p>8 Days Left</p>
+              </div>
+              <div class="project_link">
+                <a href="#">See Project Details</a>
+                <img src="img/triangle.png" alt="triangle">
+              </div>
+            </div>
+          </div>
+          <div class="project_item">
+            <img src="img/town3.png" alt="town">
+            <div class="project_card">
+              <h3>Ontario Tower , LONDON</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <img src="img/percent.png" alt="result">
+              <div class="result">
+                <p>10% Funded</p>
+                <p>8 Days Left</p>
+              </div>
+              <div class="project_link">
+                <a href="#">See Project Details</a>
+                <img src="img/triangle.png" alt="triangle">
+              </div>
+              
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="community" id="blog">
+      <div class="community_container">
+        <div class="community_title">
+          <h2>Be Part of a Growing International Community</h2>
+          <p>One of the challenges in networking is everybody thinks it's making cold calls to strangers. Actually, it's the people who already have strong trust relationships with you</p>
+        </div>
+        <div class="comment">
+          <div class="comment_left">
+            <div class="comment_text">
+              <h3>One of the Best</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod taempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="client">
+              <img src="img/client.png" alt="client">
+              <p>David Beckham</p>
+            </div>
+          </div>
+          <div class="comment_right">
+            <div class="comment_text">
+              <h3>Exellent Service</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod taempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="client">
+              <img src="img/client2.png" alt="client">
+              <p>David Beckham</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="find_out_more">
+        <img src="img/footer.png" alt="partners_logo">
+        <hr>
+        <p>Copyright © 2001 - 2014  Cssauthor.com</p>
+    </footer>
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+</body>
+</html>
